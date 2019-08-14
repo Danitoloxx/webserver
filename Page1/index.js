@@ -12,7 +12,9 @@ app.get('/', function(req, res) {
 })
 
 app.get('/practica', function(req, res) {
-    res.sendFile('practica.html')    
+    res.sendFile('practica.html', {
+        root: path.join(__dirname, './')
+    })  
 })
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))

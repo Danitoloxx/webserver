@@ -7,9 +7,11 @@ body { background:#000000;
 }
 
 .holi {
-    color: green
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 
 .pitusa{
-    color: blue
+    color: blue;
 }

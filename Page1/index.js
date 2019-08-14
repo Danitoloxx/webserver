@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const path = require('path')
-const port = 5000
+var port = process.env.PORT || 8000;
 
 app.use(express.static("public"));
 

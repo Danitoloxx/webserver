@@ -1,7 +1,7 @@
 body {
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 20px;
-    background: whitesmoke;
+    background-image: image-set(../imagenes/)
     color: black;
 }
 
@@ -41,4 +41,12 @@ h2 {
     background: rgba(220,220,220,0.3);
     border: 3px dashed black;
     padding: 50px;
+}
+
+.medidas {
+    border: 2px solid black;
+    background:rgb(240, 210, 210);
+    font-size: 17px;
+    margin: 5px;
+    padding: 5px;
 }

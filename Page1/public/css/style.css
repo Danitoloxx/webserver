@@ -26,7 +26,8 @@ body {
 .formulario {
     text-align: center;
     border: 3px solid black;
-    background: rgba(220,220,220,0.3)
+    background: rgba(220,220,220,0.3);
+    padding: 50px;    
 }
 
 h2 {
@@ -34,3 +35,11 @@ h2 {
     text-decoration: underline;
 
 }
+
+.listado {
+    width: 250px;
+    background: rgba(220,220,220,0.3);
+    border: 3px dashed black;
+    padding: 50px;
+
+    }

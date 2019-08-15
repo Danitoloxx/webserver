@@ -1,17 +1,36 @@
-body { background:#000000;
-    color:#fff;
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    background: whitesmoke;
+    color: black;
 }
 
-.pitito {
-    color:red;
+.titulo {
+    color:black;
+    font-size: 50px;
+    text-align: center;
 }
 
-.holi {
-    color: green;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 40px;
+.descrip {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background: black;
 }
 
-.pitusa{
-    color: blue;
+.frase  {
+    font-size: 18px;
+}
+
+.formulario {
+    text-align: center;
+    border: 3px solid black;
+    background: rgba(220,220,220,0.3)
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+
 }

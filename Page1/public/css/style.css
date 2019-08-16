@@ -34,7 +34,6 @@ body {
 h2 {
     text-align: center;
     text-decoration: underline;
-
 }
 
 .listado {
@@ -44,10 +43,50 @@ h2 {
     padding: 50px;
 }
 
+a {
+    text-decoration:none;
+    padding: 5px 10px;
+}
+
+a:hover{
+    text-decoration:none;
+    background: #B2B4B2;
+}
+
+a:active {
+    background:#83837C;
+    color: black;
+    text-decoration:none;
+}
+
 .medidas {
     border: 2px solid black;
-    background:rgb(240, 210, 210);
+    background:#DBDBDB;
     font-size: 17px;
     margin: 5px;
     padding: 5px;
+}
+
+div a {
+    background: #737CAB;
+    color: yellow;
+    text-decoration:none;
+    padding: 10px 20px;
+    display: inline-block;
+    box-shadow: 0px 5px 0px #4F5368;
+}
+
+div a:hover {
+    text-decoration:none;
+    background:#608785;
+    box-shadow: 0px 2px 0px #4F6868;
+}
+
+div a:active {
+    box-shadow:none;
+    color:#A8AD7D;
+}
+
+p:hover {
+    background:#E7E8D9;
 }

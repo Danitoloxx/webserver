@@ -21,7 +21,8 @@ body {
 }
 
 .frase  {
-    font-size: 18px;
+    font-size: 28px;
+    text-align: center;
 }
 
 .formulario {
@@ -87,6 +88,7 @@ div a:active {
     color:#A8AD7D;
 }
 
-p:hover {
-    background:#E7E8D9;
+.linkfinal {
+    font-size: 25px;
+    text-decoration: underline;
 }

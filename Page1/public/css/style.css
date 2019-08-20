@@ -25,11 +25,29 @@ body {
     text-align: center;
 }
 
-.formulario {
-    text-align: center;
-    border: 3px solid black;
+form {
+    border: 2px solid black;
     background: rgba(220,220,220,0.5);
-    padding: 50px;    
+    padding: 15px;
+    margin: 2px;
+    width: 30%;
+}
+
+label {
+    font-size: 23px;
+    display: inline-block;
+    width: 100%;
+}
+
+input, textarea {
+    margin-bottom: 5px;
+    padding: 5px;
+    box-sizing: border-box;    
+}
+
+input[type="submit"]:hover {
+    cursor:pointer;
+    background: #B2B4B2;
 }
 
 h2 {
@@ -42,6 +60,8 @@ h2 {
     background: rgba(220,220,220,0.3);
     border: 3px dashed black;
     padding: 50px;
+    margin: 10px;
+    padding: 15px 40px;
 }
 
 a {
@@ -58,14 +78,6 @@ a:active {
     background:#83837C;
     color: black;
     text-decoration:none;
-}
-
-.medidas {
-    border: 2px solid black;
-    background:#DBDBDB;
-    font-size: 17px;
-    margin: 5px;
-    padding: 5px;
 }
 
 div a {
@@ -92,3 +104,40 @@ div a:active {
     font-size: 25px;
     text-decoration: underline;
 }
+
+.rainbow {
+    background: #83837C;
+    border-radius: 20px;
+    display: block;   
+    border: 1px solid black;
+    align-content: center;
+    margin: 0px 40px;    
+}
+
+img {
+    border-radius: 15px;
+}
+
+table {
+    border: 1px solid black;    
+    border-collapse: collapse;
+    background:#DBDBDB;
+    font-size: 17px;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table td:hover {
+    background: black;
+    color: white;
+}
+
+table tr:hover {
+    background: #B2B4B2;
+}
+
